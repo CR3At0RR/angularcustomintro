@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(src/assets/fonts/Montserrat-Medium.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: open-sans;
+    src: url(src/assets/fonts/OpenSans-Regular.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: Montserrat-regular;
+    src: url(src/assets/fonts/Montserrat-Regular.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: Montserrat-semibold;
+    src: url(src/assets/fonts/Montserrat-SemiBold.ttf) format("opentype");
+  }

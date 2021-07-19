@@ -1,0 +1,76 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 88%;
+    margin: 0 auto;
+}
+
+.navlist li {
+    float: left;
+    list-style-type: none;
+    width: 130px;
+    font-family: 'open-sans';
+    color: #222222;
+    opacity: 1;
+    text-align: center;
+    padding: 2%;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.links {
+    width: 30%;
+    margin-left: 47%;
+}
+
+button {
+    box-sizing: border-box;
+    min-height: 40px;
+    min-width: 115px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 35px;
+    cursor: pointer;
+}
+
+.buttons{
+    width: 18%;
+}
+.login {
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #663399;
+    border-radius: 24px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #663399;
+    opacity: 1;
+    cursor: pointer;
+    font-family: 'Montserrat-Medium';
+}
+
+.start {
+    background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #00000033;
+    border-radius: 24px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 5%;
+    cursor: pointer;
+    font-family: 'Montserrat-Medium';
+    border: none !important ;
+}
+@media screen and (min-width: 1366px) {
+    .links{
+        width: 45% !important;
+        margin-left: 39% !important;
+    }
+    .navlist li{
+        font-size: 20px !important;
+    }
+    .buttons{
+        width: 31% !important;
+    }
+    }

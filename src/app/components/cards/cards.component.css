@@ -1,0 +1,91 @@
+.card1{
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    border-radius: 25px;
+    padding: 5%;
+    margin-top: 12%;
+    cursor: pointer;
+    background: #fff;
+}
+.card1:hover{
+    background: url(../../../assets/images/Rectangle2.png);
+    background-position: 60%;
+}
+.cardhead{
+    font-family: 'Montserrat-semibold';
+    font-size: 15px;
+}
+.carddesc{
+    font-family: 'Montserrat-regular';
+    font-size: 15px;
+}
+.margintopcustom{
+    margin-top: 45%;
+}
+.card_icon{
+    width: 20%;
+    margin: 6%;
+}
+.rightcont{
+    padding-right: 0 !important;
+    padding-left: 30px !important;
+}
+.lefthead1{
+    opacity: 1;
+    font-size: 30px;
+    color: #222222;
+    font-family: 'Montserrat-Medium';
+    text-align: left;
+    margin-top: 30%;
+    margin-left: 15%;
+    line-height: 1.2;
+}
+.lefthead1:after{
+    content: " ";
+    display: block;
+    border-bottom: 6px solid #222222;
+    border-radius: 13px;
+    margin-top: 11%;
+    width: 14%;
+    opacity: 70%;
+}
+.openaccount {
+    border: 2px solid #663399;
+    border-radius: 24px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #663399;
+    opacity: 1;
+    cursor: pointer;
+    font-family: 'Montserrat-Medium';
+    min-height: 40px;
+    min-width: 115px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 35px;
+    margin-left: 15%;
+    background: none !important;
+    margin-top: 10%;
+}
+.subhead{
+    font-family: 'Montserrat-regular';
+    font-size: 13px;
+    color: #777777;
+    margin-left: 15%;
+}
+.wave{
+    background: url(../../../assets/images/sol_wave_bg.svg) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+
+    /* position: absolute;
+    top: 95%;
+    right: 1%;
+    z-index: -1; */
+}
+.min-height{
+    height: 100vh;
+}
+.martop2{
+    margin-top: 2%;
+}

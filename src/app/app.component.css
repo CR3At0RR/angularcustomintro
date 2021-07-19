@@ -1,0 +1,61 @@
+.bgimgbigcircle{
+    position: absolute;
+    top: -21%;
+    right: -7%;
+    z-index: -1;
+}
+
+.bgimgsmallcircle{
+    position: absolute;
+    top: 22%;
+    left: -10%;
+    z-index: -1;
+}
+
+.bgimgdots{
+    position: absolute;
+    top: 81%;
+    left: 21%;
+    z-index: 1;
+}
+.bgimgdots1{
+    position: absolute;
+    top: 95%;
+    right: 1%;
+    z-index: -1;
+}
+
+.contentwrapper{
+    width: 100%;
+    position: relative;
+}
+@media (min-width:1366px) {
+    .bgimgbigcircle{
+        position: absolute;
+        top: -25%;
+        right: -5%;
+        z-index: -1;
+        width: 65%;
+    }
+    .bgimgsmallcircle{
+        position: absolute;
+        top: 16%;
+        left: -9%;
+        z-index: -1;
+        width: 30%;
+    }
+    .bgimgdots{
+        position: absolute;
+        top: 76%;
+        left: 22%;
+        z-index: 1;
+        width: 20%;
+    }
+    .bgimgdots1{
+        position: absolute;
+    top: 97%;
+    right: 2%;
+    z-index: -1;
+    width: 25%;
+    }
+}
