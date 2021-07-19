@@ -1,0 +1,219 @@
+.lefthead{
+    opacity: 1;
+    font-size: 40px;
+    color: #222222;
+    font-family: 'Montserrat-Medium';
+    text-align: left;
+    margin-top: 18%;
+    margin-left: 18%;
+    line-height: 1.2;
+}
+.lefthead:after{
+    content: " ";
+    display: block;
+    border-bottom: 6px solid #222222;
+    border-radius: 13px;
+    margin-top: 1%;
+    width: 34%;
+    opacity: 70%;
+}
+.leftcont{
+    position: relative;
+}
+.leftcont img{
+    position: absolute;
+    top: 350px;
+    left: 120px;
+}
+.rightcont{
+    display: flex;
+    margin: auto;
+}
+.largecard{
+    text-align: center;
+    margin-top: 18%;
+    background-color: #fff;
+    width: 50%;
+    height: 670px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    margin-left: 16%;
+}
+
+.smallcard{
+    background: #663399;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    color: #fff;
+    margin-top: 32%;
+    height: 430px;
+    text-align: center;
+    margin-left: 1%;
+    vertical-align: middle;
+    width: 23%;
+    padding-top: 10%;
+}
+.smallcard h1{
+    margin-top: 0% !important;
+    font-family: 'Montserrat-regular';
+    font-size: 21px;
+}
+.smallcard h2{
+    font-family: 'Montserrat-regular';
+    font-size: 15px;
+    opacity: 0.7;
+}
+.getmoney {
+    background: #fff;
+    border-radius: 24px;
+    letter-spacing: 0px;
+    color: #663399;
+    opacity: 1;
+    cursor: pointer;
+    font-family: 'Montserrat-Medium';
+    box-sizing: border-box;
+    min-height: 40px;
+    min-width: 115px;
+    border: none;
+    margin-top: 10%;
+}
+::ng-deep .ng5-slider .ng5-slider-pointer {
+    cursor: pointer;
+    width: 16px !important;
+    height: 16px !important;
+    top: -6px !important;
+    background-color: #fff !important;
+    z-index: 3;
+    border-radius: 16px;
+}
+
+::ng-deep .ng5-slider .ng5-slider-selection{
+    z-index: 2;
+    background: #663399 !important;
+    border-radius: 2px;
+    
+}
+
+::ng-deep .ng5-slider .ng5-slider-pointer:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 4px !important;
+    left: 4px !important;
+    border-radius: 4px;
+    background: #663399 !important;
+}
+::ng-deep .ng5-slider-pointer:focus-visible{
+    outline-color: none !important;
+}
+::ng-deep .ng5-slider-model-value
+{
+    display: none !important;
+}
+*,*:focus,*:hover,*:focus-visible{
+    outline: none !important;
+}
+.largecard h2{
+    font-family: 'Montserrat-regular';
+    font-size: 15px;
+    opacity: 0.9;
+    margin-bottom: 0% !important;
+    text-align: left !important;
+    margin-left: 10%;
+}
+.largecard h4{
+     margin-top: 0% !important;
+    font-family: 'Montserrat-medium';
+    font-size: 21px;
+    text-align: left !important;
+    margin-left: 10%;
+}
+.ng5-slider .ng5-slider-bubble{
+    font-family: 'Montserrat-regular' !important;
+}
+::ng-deep .ng5-slider{
+    width: 80% !important;
+}
+.mainhead{
+    padding: 2%;
+    background-color: aliceblue;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex{
+    background: none !important;
+}
+::ng-deep .mat-form-field{
+    width: 80%;
+}
+::ng-deep .mat-form-field-label{
+    display: none !important;
+}
+::ng-deep .mat-select-placeholder{
+    color: #222222;
+    font-family: 'Montserrat-medium';
+    font-size: 21px;
+}
+::ng-deep .mat-select-arrow-wrapper{
+    display: block !important;
+}
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex{
+    padding: 0 !important;
+}
+::ng-deep .mat-select-value{
+    color: #222222;
+    font-family: 'Montserrat-medium';
+    font-size: 21px;
+}
+.buttoncont{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+::ng-deep .mat-slide-toggle.mat-checked .mat-slide-toggle-bar{
+    background-color: #663399 !important;
+}
+::ng-deep .mat-slide-toggle.mat-checked .mat-slide-toggle-thumb{
+    background-color: #fafafa !important;
+}
+.ans::after{
+    content: " ";
+    display: block;
+    margin-top: 1%;
+    width: 90%;
+    border-bottom: 1px solid rgba(0,0,0,.42);
+}
+.min-height{
+    height: 100vh;
+}
+@media (min-width:1366px) {
+    .leftcont img{
+        position: absolute;
+        top: 270px;
+        left: 110px;
+        width: 60%;
+    }
+    .lefthead{
+        margin-top: 12%;
+    }
+    .largecard{
+        text-align: center;
+    margin-top: 12%;
+    background-color: #fff;
+    width: 60%;
+    height: 580px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    margin-left: 4%;
+    }
+    .smallcard{
+        margin-top: 24%;
+    }
+    .buttoncont{
+        margin-top: 0;
+        margin-bottom: 3%;
+    }
+}

@@ -1,0 +1,39 @@
+
+<div class="min-height">
+<div class="col-md-6 col-sm-6 col-xs-6 leftcont">
+    <h1 class="lefthead">We make it Super <br>simple</h1>
+    <img src="../../../assets/images/collect_img-video.png" class="img-responsive" />
+</div>
+<div class="col-md-6 col-sm-6 col-xs-6 rightcont">
+    <div class="largecard">
+        <h1 class="mainhead">Eligiblity Calculator</h1>
+        <h2>Monthly Income</h2>
+        <h4>{{myModel | currency:'INR':'symbol':'3.0'}}</h4>
+        <ng5-slider [(ngModel)]="myModel" [options]="options"></ng5-slider>
+        <h2>Monthly Expenses</h2>
+        <h4>{{myModel1 | currency:'INR':'symbol':'3.0'}}</h4>
+        <ng5-slider [(ngModel)]="myModel1" [options]="options1"></ng5-slider>
+        <h2>Repayment Tenure</h2>
+        <mat-form-field appearance="fill">
+            <mat-select placeholder="6 Months">
+                <mat-option *ngFor="let food of foods" [value]="food.value">
+                    {{food.viewValue}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <div class="buttoncont">
+            <h2>Do you have any existing loans?</h2>
+            <mat-slide-toggle></mat-slide-toggle>
+        </div>
+        <h2>EMI of existing loan (optional)</h2>
+        <h4 class="ans">&#8377;15,000</h4>
+    </div>
+    <div class="smallcard">
+        <h2>Loan Amount</h2>
+        <h1>&#8377;1,00,000</h1>
+        <h2>Your emi will be</h2>
+        <h1>&#8377;15,000</h1>
+        <button class="getmoney">Get Money</button>
+    </div>
+</div>
+</div>
